@@ -1,0 +1,24 @@
+{
+  "name": "todesktop-push-receiver",
+  "version": "0.1.0",
+  "description": "ToDesktop push receiver with OneSignal",
+  "main": "OneSignal.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/classtinginc/todesktop-push-receiver.git"
+  },
+  "keywords": [
+    "todesktop",
+    "onesignal",
+    "fcm",
+    "electron"
+  ],
+  "author": {
+    "name": "eddie",
+    "email": "eddie@classting.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/classtinginc/todesktop-push-receiver/issues"
+  }
+}
