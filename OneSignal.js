@@ -130,6 +130,10 @@
         if (callback) {
           callback(customJSON.a);
         }
+
+        if (!callback) {
+          window.location.href = customJSON.u;
+        }
       }
     }
   };
