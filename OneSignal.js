@@ -128,7 +128,7 @@
       myNotification.onclick = function () {
         OneSignal.addListenerForNotificationOpened(notifiationId);
         if (callback) {
-          callback(customJSON.a);
+          callback(customJSON);
         }
 
         if (!callback) {
