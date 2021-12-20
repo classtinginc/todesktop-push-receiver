@@ -1,10 +1,10 @@
 (function () {
   'use strict';
 
-  const ONESIGNAL_VERSION = 10100;
+  const ONESIGNAL_VERSION = 1000;
   const ONESIGNAL_HOST_URL = 'https://onesignal.com/api/v1/';
   const ONESIGNAL_LOGGING = false;
-  const ONESIGNAL_GAME_VERSION = '101.0.0';
+  const ONESIGNAL_GAME_VERSION = '10.0.0';
 
   var __OneSignalHelper = {
     sendToOneSignalApi: function(url, action, inData, callback) {
