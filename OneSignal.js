@@ -126,6 +126,11 @@
       var notifiationId = customJSON.i;
 
       myNotification.onclick = function () {
+        if (window.todesktop) {
+          window.todesktop.app.show({ steal: true });
+          window.todesktop.window.restore();
+        }
+
         OneSignal.addListenerForNotificationOpened(notifiationId);
         if (callback) {
           callback(customJSON);
